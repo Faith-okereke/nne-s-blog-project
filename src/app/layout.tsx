@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 
 const poppins = Poppins({
   weight: "400",
@@ -11,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nne'e Personal Blog",
+  title: "Nne's Personal Blog",
   description:
     "A real-life blog where you can read, write and contribute to articles",
 };
@@ -26,7 +25,6 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${poppins.variable} antialiased`}>
         <Navbar />
         {children}
-        <Footer />
       </body>
     </html>
   );
