@@ -8,9 +8,8 @@ import {
   SlSocialInstagram,
   SlSocialTwitter,
 } from "react-icons/sl";
-type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
