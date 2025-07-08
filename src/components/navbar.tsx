@@ -5,9 +5,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MdClose } from "react-icons/md";
 import { GiHamburgerMenu } from "react-icons/gi";
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   const pathname = usePathname();
   const navItems = [
     { href: "/", label: "My Portfolio" },

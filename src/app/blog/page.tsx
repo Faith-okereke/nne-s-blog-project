@@ -1,10 +1,5 @@
 "use client";
-import Tiptap from "@/components/tiptap";
-import { useRouter } from "next/navigation";
-import React, { useContext, useState, useEffect } from "react";
-import { uuid } from "uuidv4";
 import Footer from "@/components/footer";
-type Props = {};
 
 const page = () => {
   return (
