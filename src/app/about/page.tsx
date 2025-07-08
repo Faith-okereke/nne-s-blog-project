@@ -2,9 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-type Props = {};
-
-const page = (props: Props) => {
+const page = () => {
   return (
     <div className="relative w-full px-6 lg:px-32 py-20 overflow-hidden bg-[#172745]">
       <div className="flex lg:flex-row flex-col gap-24 lg:justify-around items-center w-full z-10 relative">
@@ -38,7 +36,7 @@ const page = (props: Props) => {
               experiences.
             </p>
             <p>
-              I specialize in{" "}
+              I specialize in 
               <strong className="text-[#ef9b60]">
                 React, Next.js, and Tailwind CSS
               </strong>

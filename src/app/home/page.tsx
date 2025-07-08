@@ -4,17 +4,8 @@ import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 
-type Props = {};
-type Posts = {};
-type Authors = {};
-type PortfolioData = {
-  posts: Posts[];
-  authors: Authors[];
-};
 
-const HomePage = (props: Props) => {
-  const [blogsData, setBlogsData] = useState<PortfolioData[]>([]);
-
+const HomePage = () => {
   return (
     <div className="pb-12">
       {/* Hero Section */}
